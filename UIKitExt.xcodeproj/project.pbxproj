@@ -10,6 +10,20 @@
 		499B013D202DA3CD00C3ED33 /* UIKitExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499B0133202DA3CC00C3ED33 /* UIKitExt.framework */; };
 		499B0142202DA3CD00C3ED33 /* UIKitExtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0141202DA3CD00C3ED33 /* UIKitExtTests.swift */; };
 		499B0144202DA3CD00C3ED33 /* UIKitExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 499B0136202DA3CC00C3ED33 /* UIKitExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		499B014F202DA40E00C3ED33 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B014E202DA40D00C3ED33 /* UILabel+Extensions.swift */; };
+		499B0151202DA43600C3ED33 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0150202DA43600C3ED33 /* UIColor+Extensions.swift */; };
+		499B0156202DA4F700C3ED33 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0155202DA4F700C3ED33 /* UIViewController+Extensions.swift */; };
+		499B0158202DA55500C3ED33 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0157202DA55500C3ED33 /* UIScrollView+Extensions.swift */; };
+		499B015A202DA5A300C3ED33 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0159202DA5A300C3ED33 /* UIFont+Extensions.swift */; };
+		499B015C202DA5E800C3ED33 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B015B202DA5E800C3ED33 /* UIImage+Extensions.swift */; };
+		499B0160202DA71C00C3ED33 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B015F202DA71C00C3ED33 /* UIStackView+Extensions.swift */; };
+		499B0162202DA79700C3ED33 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0161202DA79700C3ED33 /* UIImageView+Extensions.swift */; };
+		499B0164202DA80900C3ED33 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0163202DA80900C3ED33 /* UIAlertController+Extensions.swift */; };
+		499B0166202DC5DC00C3ED33 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0165202DC5DC00C3ED33 /* UITableView+Extensions.swift */; };
+		499B0168202DC60C00C3ED33 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0167202DC60C00C3ED33 /* UIView+Extensions.swift */; };
+		49A802B0202FBD0A005282A7 /* UIEdgeInsets+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A802AF202FBD0A005282A7 /* UIEdgeInsets+Extensions.swift */; };
+		49A802B2202FC090005282A7 /* UINavigationItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A802B1202FC090005282A7 /* UINavigationItem+Extensions.swift */; };
+		49A802B4202FC1E7005282A7 /* UIBezierPath+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A802B3202FC1E7005282A7 /* UIBezierPath+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +43,20 @@
 		499B013C202DA3CD00C3ED33 /* UIKitExtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitExtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		499B0141202DA3CD00C3ED33 /* UIKitExtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtTests.swift; sourceTree = "<group>"; };
 		499B0143202DA3CD00C3ED33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499B014E202DA40D00C3ED33 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		499B0150202DA43600C3ED33 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		499B0155202DA4F700C3ED33 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		499B0157202DA55500C3ED33 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
+		499B0159202DA5A300C3ED33 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		499B015B202DA5E800C3ED33 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		499B015F202DA71C00C3ED33 /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		499B0161202DA79700C3ED33 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		499B0163202DA80900C3ED33 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		499B0165202DC5DC00C3ED33 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		499B0167202DC60C00C3ED33 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		49A802AF202FBD0A005282A7 /* UIEdgeInsets+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
+		49A802B1202FC090005282A7 /* UINavigationItem+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Extensions.swift"; sourceTree = "<group>"; };
+		49A802B3202FC1E7005282A7 /* UIBezierPath+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +99,7 @@
 		499B0135202DA3CC00C3ED33 /* UIKitExt */ = {
 			isa = PBXGroup;
 			children = (
+				499B014D202DA3D600C3ED33 /* Source */,
 				499B0136202DA3CC00C3ED33 /* UIKitExt.h */,
 				499B0137202DA3CC00C3ED33 /* Info.plist */,
 			);
@@ -84,6 +113,27 @@
 				499B0143202DA3CD00C3ED33 /* Info.plist */,
 			);
 			path = UIKitExtTests;
+			sourceTree = "<group>";
+		};
+		499B014D202DA3D600C3ED33 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				499B0163202DA80900C3ED33 /* UIAlertController+Extensions.swift */,
+				499B0150202DA43600C3ED33 /* UIColor+Extensions.swift */,
+				49A802AF202FBD0A005282A7 /* UIEdgeInsets+Extensions.swift */,
+				499B0159202DA5A300C3ED33 /* UIFont+Extensions.swift */,
+				499B015B202DA5E800C3ED33 /* UIImage+Extensions.swift */,
+				499B0161202DA79700C3ED33 /* UIImageView+Extensions.swift */,
+				499B014E202DA40D00C3ED33 /* UILabel+Extensions.swift */,
+				499B0157202DA55500C3ED33 /* UIScrollView+Extensions.swift */,
+				499B015F202DA71C00C3ED33 /* UIStackView+Extensions.swift */,
+				499B0165202DC5DC00C3ED33 /* UITableView+Extensions.swift */,
+				499B0167202DC60C00C3ED33 /* UIView+Extensions.swift */,
+				499B0155202DA4F700C3ED33 /* UIViewController+Extensions.swift */,
+				49A802B1202FC090005282A7 /* UINavigationItem+Extensions.swift */,
+				49A802B3202FC1E7005282A7 /* UIBezierPath+Extensions.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +198,7 @@
 				TargetAttributes = {
 					499B0132202DA3CC00C3ED33 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					499B013B202DA3CD00C3ED33 = {
@@ -196,6 +247,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A802B2202FC090005282A7 /* UINavigationItem+Extensions.swift in Sources */,
+				49A802B0202FBD0A005282A7 /* UIEdgeInsets+Extensions.swift in Sources */,
+				499B0156202DA4F700C3ED33 /* UIViewController+Extensions.swift in Sources */,
+				499B014F202DA40E00C3ED33 /* UILabel+Extensions.swift in Sources */,
+				499B0158202DA55500C3ED33 /* UIScrollView+Extensions.swift in Sources */,
+				499B015C202DA5E800C3ED33 /* UIImage+Extensions.swift in Sources */,
+				499B0151202DA43600C3ED33 /* UIColor+Extensions.swift in Sources */,
+				499B0166202DC5DC00C3ED33 /* UITableView+Extensions.swift in Sources */,
+				499B0160202DA71C00C3ED33 /* UIStackView+Extensions.swift in Sources */,
+				499B0162202DA79700C3ED33 /* UIImageView+Extensions.swift in Sources */,
+				499B0164202DA80900C3ED33 /* UIAlertController+Extensions.swift in Sources */,
+				49A802B4202FC1E7005282A7 /* UIBezierPath+Extensions.swift in Sources */,
+				499B015A202DA5A300C3ED33 /* UIFont+Extensions.swift in Sources */,
+				499B0168202DC60C00C3ED33 /* UIView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +399,7 @@
 		499B0148202DA3CD00C3ED33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +413,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.marcb.UIKitExt;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +422,7 @@
 		499B0149202DA3CD00C3ED33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +444,7 @@
 		499B014B202DA3CD00C3ED33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HYV9U93759;
 				INFOPLIST_FILE = UIKitExtTests/Info.plist;
@@ -390,6 +459,7 @@
 		499B014C202DA3CD00C3ED33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HYV9U93759;
 				INFOPLIST_FILE = UIKitExtTests/Info.plist;
