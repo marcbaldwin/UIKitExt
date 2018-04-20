@@ -66,7 +66,8 @@ scrollView.zoomToFit()
 #### UITableView
 
 ```Swift
-tableView.deselectSelectedRow()
+tableView.deselectSelectedRow(animated: true)
+tableView.scrollToTop(animated: false)
 ```
 
 #### UIImageView
