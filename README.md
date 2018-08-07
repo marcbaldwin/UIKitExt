@@ -53,6 +53,9 @@ let alert = UIAlertController(.alert, title: "Delete message?", message: "Are yo
   }
   .addCancel(title: "No")
   .present(on: viewController, animated: true)
+
+// Optionally specify a tint color
+let redAlert = UIAlertController(.alert, tintColor: .red, title: "Delete message?", message: "Are you sure?")
 ```
 
 #### UIScrollView
