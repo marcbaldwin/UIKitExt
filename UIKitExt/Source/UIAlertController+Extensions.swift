@@ -2,8 +2,11 @@ import UIKit
 
 public extension UIAlertController {
 
-    public convenience init(_ preferredStyle: UIAlertControllerStyle, title: String? = nil, message: String? = nil) {
+    public convenience init(_ preferredStyle: UIAlertControllerStyle, tintColor: UIColor? = nil, title: String? = nil, message: String? = nil) {
         self.init(title: title, message: message, preferredStyle: preferredStyle)
+        if let tintColor = tintColor {
+            view.tintColor = tintColor
+        }
     }
 
     @discardableResult
