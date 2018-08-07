@@ -119,19 +119,19 @@
 			isa = PBXGroup;
 			children = (
 				499B0163202DA80900C3ED33 /* UIAlertController+Extensions.swift */,
+				49A802B3202FC1E7005282A7 /* UIBezierPath+Extensions.swift */,
 				499B0150202DA43600C3ED33 /* UIColor+Extensions.swift */,
 				49A802AF202FBD0A005282A7 /* UIEdgeInsets+Extensions.swift */,
 				499B0159202DA5A300C3ED33 /* UIFont+Extensions.swift */,
 				499B015B202DA5E800C3ED33 /* UIImage+Extensions.swift */,
 				499B0161202DA79700C3ED33 /* UIImageView+Extensions.swift */,
 				499B014E202DA40D00C3ED33 /* UILabel+Extensions.swift */,
+				49A802B1202FC090005282A7 /* UINavigationItem+Extensions.swift */,
 				499B0157202DA55500C3ED33 /* UIScrollView+Extensions.swift */,
 				499B015F202DA71C00C3ED33 /* UIStackView+Extensions.swift */,
 				499B0165202DC5DC00C3ED33 /* UITableView+Extensions.swift */,
 				499B0167202DC60C00C3ED33 /* UIView+Extensions.swift */,
 				499B0155202DA4F700C3ED33 /* UIViewController+Extensions.swift */,
-				49A802B1202FC090005282A7 /* UINavigationItem+Extensions.swift */,
-				49A802B3202FC1E7005282A7 /* UIBezierPath+Extensions.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
