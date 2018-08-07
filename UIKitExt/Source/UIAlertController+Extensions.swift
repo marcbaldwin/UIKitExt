@@ -2,9 +2,14 @@ import UIKit
 
 public extension UIAlertController {
 
+    static var tintColor: UIColor?
+
     public convenience init(_ preferredStyle: UIAlertControllerStyle, tintColor: UIColor? = nil, title: String? = nil, message: String? = nil) {
         self.init(title: title, message: message, preferredStyle: preferredStyle)
         if let tintColor = tintColor {
+            view.tintColor = tintColor
+        }
+        else if let tintColor = UIAlertController.tintColor {
             view.tintColor = tintColor
         }
     }

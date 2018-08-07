@@ -56,6 +56,9 @@ let alert = UIAlertController(.alert, title: "Delete message?", message: "Are yo
 
 // Optionally specify a tint color
 let redAlert = UIAlertController(.alert, tintColor: .red, title: "Delete message?", message: "Are you sure?")
+
+// Or globally set a tint color
+UIAlertController.tintColor = .red
 ```
 
 #### UIScrollView
