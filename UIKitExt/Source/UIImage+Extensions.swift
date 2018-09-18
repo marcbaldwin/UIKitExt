@@ -3,10 +3,10 @@ import UIKit
 public extension UIImage {
 
     public func toPNG() -> Data? {
-        return UIImagePNGRepresentation(self)
+        return self.pngData()
     }
 
     public func toJPEG(quality: CGFloat = 1) -> Data? {
-        return UIImageJPEGRepresentation(self, quality)
+        return self.jpegData(compressionQuality: quality)
     }
 }

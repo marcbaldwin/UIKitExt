@@ -7,7 +7,7 @@ public extension UIFont {
             .boundingRect(
                 with: CGSize(width: width, height: .greatestFiniteMagnitude),
                 options: .usesLineFragmentOrigin,
-                attributes: [NSAttributedStringKey.font: self],
+                attributes: [NSAttributedString.Key.font : self],
                 context: nil
             ).size
     }

@@ -3,12 +3,12 @@ import UIKit
 public extension UIStackView {
 
     public convenience init(
-        _ axis: UILayoutConstraintAxis,
-        distribution: UIStackViewDistribution = .fill,
-        alignment: UIStackViewAlignment = .fill,
+        _ axis: NSLayoutConstraint.Axis,
+        distribution: UIStackView.Distribution = .fill,
+        alignment: UIStackView.Alignment = .fill,
         spacing: CGFloat = 0,
         views: UIView...) {
-        self.init(frame: CGRect.zero)
+        self.init(frame: .zero)
         self.axis = axis
         self.distribution = distribution
         self.alignment = alignment
