@@ -13,9 +13,6 @@ view.addSubviews(subview1, subview2, subview3)
 
 // Easily remove all subviews
 view.removeAllSubviews()
-
-// Turn a view into a UIImage
-view.toUIImage()
 ```
 
 #### UIViewController

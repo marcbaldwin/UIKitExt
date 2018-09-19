@@ -15,7 +15,6 @@
 		499B0156202DA4F700C3ED33 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0155202DA4F700C3ED33 /* UIViewController+Extensions.swift */; };
 		499B0158202DA55500C3ED33 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0157202DA55500C3ED33 /* UIScrollView+Extensions.swift */; };
 		499B015A202DA5A300C3ED33 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0159202DA5A300C3ED33 /* UIFont+Extensions.swift */; };
-		499B015C202DA5E800C3ED33 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B015B202DA5E800C3ED33 /* UIImage+Extensions.swift */; };
 		499B0160202DA71C00C3ED33 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B015F202DA71C00C3ED33 /* UIStackView+Extensions.swift */; };
 		499B0162202DA79700C3ED33 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0161202DA79700C3ED33 /* UIImageView+Extensions.swift */; };
 		499B0164202DA80900C3ED33 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B0163202DA80900C3ED33 /* UIAlertController+Extensions.swift */; };
@@ -48,7 +47,6 @@
 		499B0155202DA4F700C3ED33 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		499B0157202DA55500C3ED33 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
 		499B0159202DA5A300C3ED33 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
-		499B015B202DA5E800C3ED33 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		499B015F202DA71C00C3ED33 /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
 		499B0161202DA79700C3ED33 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		499B0163202DA80900C3ED33 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				499B0150202DA43600C3ED33 /* UIColor+Extensions.swift */,
 				49A802AF202FBD0A005282A7 /* UIEdgeInsets+Extensions.swift */,
 				499B0159202DA5A300C3ED33 /* UIFont+Extensions.swift */,
-				499B015B202DA5E800C3ED33 /* UIImage+Extensions.swift */,
 				499B0161202DA79700C3ED33 /* UIImageView+Extensions.swift */,
 				499B014E202DA40D00C3ED33 /* UILabel+Extensions.swift */,
 				49A802B1202FC090005282A7 /* UINavigationItem+Extensions.swift */,
@@ -253,7 +250,6 @@
 				499B0156202DA4F700C3ED33 /* UIViewController+Extensions.swift in Sources */,
 				499B014F202DA40E00C3ED33 /* UILabel+Extensions.swift in Sources */,
 				499B0158202DA55500C3ED33 /* UIScrollView+Extensions.swift in Sources */,
-				499B015C202DA5E800C3ED33 /* UIImage+Extensions.swift in Sources */,
 				499B0151202DA43600C3ED33 /* UIColor+Extensions.swift in Sources */,
 				499B0166202DC5DC00C3ED33 /* UITableView+Extensions.swift in Sources */,
 				499B0160202DA71C00C3ED33 /* UIStackView+Extensions.swift in Sources */,
