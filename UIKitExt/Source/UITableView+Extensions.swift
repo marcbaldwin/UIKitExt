@@ -9,6 +9,7 @@ public extension UITableView {
     }
 
     public func scrollToTop(animated: Bool = false) {
+        guard numberOfSections > 0 && numberOfRows(inSection: 0) > 0 else { return }
         scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: animated)
     }
 
