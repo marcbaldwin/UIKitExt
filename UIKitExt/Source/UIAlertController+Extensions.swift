@@ -15,20 +15,21 @@ public extension UIAlertController {
     }
 
     @discardableResult
-    func addAction(title: String? = nil, style: UIAlertAction.Style = .default, action: (() -> Void)? = nil) -> Self {
-        addAction(UIAlertAction(title: title, style: style, handler: { _ in action?() }))
+    func addAction(title: String? = nil, style: UIAlertAction.Style = .default, show: Bool = true, handler: (() -> Void)? = nil) -> Self {
+        if show {
+            addAction(UIAlertAction(title: title, style: style, handler: { _ in handler?() }))
+        }
         return self
+    }
+
+    @discardableResult
+    func addCancel(title: String, show: Bool = true, handler: (() -> Void)? = nil) -> Self {
+        return addAction(title: title, style: .cancel, show: show, handler: handler)
     }
 
     @discardableResult
     func addTextField(_ handler: @escaping (UITextField) -> Void) -> Self {
         self.addTextField(configurationHandler: handler)
-        return self
-    }
-
-    @discardableResult
-    func addCancel(title: String, handler: (() -> Void)? = nil) -> Self {
-        addAction(UIAlertAction(title: title, style: .cancel, handler: { _ in handler?() }))
         return self
     }
 
