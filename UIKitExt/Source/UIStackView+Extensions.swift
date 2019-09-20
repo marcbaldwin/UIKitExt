@@ -2,7 +2,7 @@ import UIKit
 
 public extension UIStackView {
 
-    public convenience init(
+    convenience init(
         _ axis: NSLayoutConstraint.Axis,
         distribution: UIStackView.Distribution = .fill,
         alignment: UIStackView.Alignment = .fill,
@@ -17,13 +17,13 @@ public extension UIStackView {
     }
 
     @discardableResult
-    public func add(_ arrangedSubviews: UIView...) -> UIStackView {
+    func add(_ arrangedSubviews: UIView...) -> UIStackView {
         add(arrangedSubviews)
         return self
     }
 
     @discardableResult
-    public func add(_ arrangedSubviews: [UIView]) -> UIStackView {
+    func add(_ arrangedSubviews: [UIView]) -> UIStackView {
         for view in arrangedSubviews {
             addArrangedSubview(view)
         }

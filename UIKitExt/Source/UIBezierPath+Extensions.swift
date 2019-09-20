@@ -2,7 +2,7 @@ import UIKit
 
 public extension UIBezierPath {
 
-    public convenience init(points: [CGPoint]) {
+    convenience init(points: [CGPoint]) {
         self.init()
         if let first = points.first {
             move(to: first)
@@ -12,7 +12,7 @@ public extension UIBezierPath {
         }
     }
 
-    public convenience init(circleCenter: CGPoint, radius: CGFloat) {
+    convenience init(circleCenter: CGPoint, radius: CGFloat) {
         self.init(
             arcCenter: circleCenter,
             radius: radius,

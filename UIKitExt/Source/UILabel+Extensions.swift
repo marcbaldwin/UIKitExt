@@ -2,7 +2,7 @@ import UIKit
 
 public extension UILabel {
 
-    public convenience init(
+    convenience init(
         font: UIFont? = nil,
         color: UIColor? = nil,
         alignment: NSTextAlignment = .center,
@@ -21,7 +21,7 @@ public extension UILabel {
         self.adjustsFontSizeToFitWidth = adjustToWidth
     }
 
-    public func resize(shouldExpandHorizontally expand: Bool = true) {
+    func resize(shouldExpandHorizontally expand: Bool = true) {
         if let text = text {
             let maxHeight = bounds.height
             let maxWidth =  expand ? CGFloat.greatestFiniteMagnitude : bounds.size.width

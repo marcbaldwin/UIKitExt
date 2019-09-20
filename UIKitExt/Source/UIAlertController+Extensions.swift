@@ -4,7 +4,7 @@ public extension UIAlertController {
 
     static var tintColor: UIColor?
 
-    public convenience init(_ preferredStyle: UIAlertController.Style, tintColor: UIColor? = nil, title: String? = nil, message: String? = nil) {
+    convenience init(_ preferredStyle: UIAlertController.Style, tintColor: UIColor? = nil, title: String? = nil, message: String? = nil) {
         self.init(title: title, message: message, preferredStyle: preferredStyle)
         if let tintColor = tintColor {
             view.tintColor = tintColor
@@ -15,24 +15,24 @@ public extension UIAlertController {
     }
 
     @discardableResult
-    public func addAction(title: String? = nil, style: UIAlertAction.Style = .default, action: (() -> Void)? = nil) -> Self {
+    func addAction(title: String? = nil, style: UIAlertAction.Style = .default, action: (() -> Void)? = nil) -> Self {
         addAction(UIAlertAction(title: title, style: style, handler: { _ in action?() }))
         return self
     }
 
     @discardableResult
-    public func addTextField(_ handler: @escaping (UITextField) -> Void) -> Self {
+    func addTextField(_ handler: @escaping (UITextField) -> Void) -> Self {
         self.addTextField(configurationHandler: handler)
         return self
     }
 
     @discardableResult
-    public func addCancel(title: String, handler: (() -> Void)? = nil) -> Self {
+    func addCancel(title: String, handler: (() -> Void)? = nil) -> Self {
         addAction(UIAlertAction(title: title, style: .cancel, handler: { _ in handler?() }))
         return self
     }
 
-    public class func editTextAlert(
+    class func editTextAlert(
         title: String,
         initialText: String?,
         hint: String? = nil,
