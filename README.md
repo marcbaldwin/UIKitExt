@@ -61,7 +61,9 @@ UIAlertController.tintColor = .red
 #### UIScrollView
 
 ```Swift
-scrollView.scrollTo(page: 2, animated: true)
+let currentPage = scrollView.currentPage
+
+scrollView.scrollTo(page: currentPage + 1, animated: true)
 
 scrollView.zoomToFit()
 ```
