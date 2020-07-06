@@ -105,5 +105,4 @@ let insets = UIEdgeInsets(inset: 10)
 // Equivalent to UIEdgeInsets(top: 40, left: 10, bottom: 40, right: 10)
 let insets = UIEdgeInsets(horizontal: 10, vertical: 40)
 
-
 ```
